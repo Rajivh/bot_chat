@@ -1,0 +1,37 @@
+{"converse_intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Hello", "Good day"],
+         "responses": ["Hello dude", "Good to see you again", "Yes sir - at your service"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "Name",
+         "patterns": ["What is your name", "Do you have a name" ],
+         "responses": ["My name is iss_ebac_bot", "yes. Do you?"]
+        },
+        {"tag": "chitchat",
+         "patterns": ["Are you sane", "Do you understand anything" ],
+         "responses": ["Yes am. Are you?", "Am just a slackbot. Cut me some slack"]
+        },
+        {"tag": "Lecturer",
+         "patterns": ["What lecture is it today", "What class do i have today"],
+         "responses": ["Why dont you check your time table", "What electives have you chosen"]
+        },
+        {"tag": "class",
+         "patterns": ["Which class do you like the most", "Which is your Favorite class"],
+         "responses": ["Hahaha!!! I better not answer that", "Do you think I will answer if you keep repeating the question"]
+        },
+        {"tag": "lunch",
+         "patterns": ["Whats for lunch", "Did you have food"],
+         "responses": ["Chicken rice as always"],
+         "context_set": "lunch"
+        }
+   ]
+}
